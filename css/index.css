@@ -187,12 +187,9 @@ p {
     color: black;
     padding: 10px;
     margin: 6px;
-    width: 100%;
+    /* width: 100%; */
+    flex: 1;
     text-decoration: none;
-}
-
-#jumboDiv {
-    margin-top: 85px;
 }
 
 .top-content1 {
@@ -281,16 +278,34 @@ p {
  * ABOUT PAGE SECOND FORM VIA THE LINK ON NAV BAR
 */
 
-#about {
-    width: 100%;
+#aboutSect {
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+
 
 }
 
 #jumboAbtDiv {
+    display: flex;
     /* width: 100%; */
     flex: 1;
 }
 
+
+#stratHowWe {
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-around;
+
+}
+
+
+#strat,
+#howWe {
+
+    border-bottom: 1px dashed black;
+}
 
 
 
