@@ -158,6 +158,7 @@ h5 {
 
 p {
     line-height: 1.4;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -273,6 +274,26 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+
+/**
+ * ABOUT PAGE SECOND FORM VIA THE LINK ON NAV BAR
+*/
+
+#about {
+    width: 100%;
+
+}
+
+#jumboAbtDiv {
+    width: 100%;
+}
+
+
+
+
+
 
 footer {
     width: 100%;
