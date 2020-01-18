@@ -151,7 +151,7 @@ h4,
 h5 {
     font-size: 18px;
     margin-bottom: 15px;
-    font-weight: 300;
+    font-weight: 900;
     font-family: 'Roboto', 'Rubik';
 }
 
@@ -171,7 +171,7 @@ p {
     /* display: flex; */
     /* flex-basis: 100%; */
     display: flex;
-    width: 79%;
+    width: 80%;
     margin: 0px;
     padding: 0px;
     font-size: 32px;
@@ -198,7 +198,6 @@ p {
     margin-bottom: 20px;
     padding: 4px;
     /* border-bottom: 4px dashed black; */
-}
 
 /* 
 .topContentDiv {
@@ -211,15 +210,28 @@ p {
 
 #topContentDiv {
     display: flex;
-    justify-items: right;
+    flex-basis: 5%;
+    padding: 0;
+    margin: 0;
+    border-bottom: black dashed 1px;
+
+    ;
+}
+
+#topContent1 {
+    margin: 0;
+    padding: 20px 0 35px 10px;
+    flex-basis: 60%;
+    justify-content: flex-start;
+    justify-content: space-around;
 
 }
 
-.topContent1 {
-    border: 5px dashed red;
-    margin: 0;
-    padding: 30px;
 
+#topContent1 h2 {
+    font-size: 22px;
+    margin: 0;
+    padding-bottom: 24px;
 }
 
 /* 
@@ -239,6 +251,7 @@ p {
 
 .middle-content h2 {
     padding-top: 20px;
+    padding-left: 25px;
     margin: 40;
     font-size: 20px;
 }
@@ -270,25 +283,26 @@ p {
 */
 
 
+
 #bottomContent {
     display: flex;
     justify-content: center;
+    align-content: center;
+    margin: 0;
+    align-items: center;
+    flex-basis: 28%;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: 900;
+
 }
 
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
+.text-container {
+    padding: 0;
+    flex-basis: 70%;
+    padding-bottom: 30px;
 
-.bottom-content .text-container {
-    padding-right: 4%;
 }
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
 
 /**
  * ABOUT PAGE SECOND FORM VIA THE LINK ON NAV BAR
@@ -302,9 +316,10 @@ p {
 
 }
 
-#jumboAbtDiv {
+#jumboPic {
     display: flex;
-    /* width: 100%; */
+    flex-basis: 100%;
+    padding-top: 55px;
     flex: 1;
 }
 
@@ -419,7 +434,6 @@ footer nav a {
     flex-basis: 12%;
     height: 95px;
     padding: 17px;
-    /* background: black; */
     margin: 0;
     color: white;
     display: flex;
