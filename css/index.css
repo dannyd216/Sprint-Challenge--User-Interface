@@ -141,7 +141,7 @@ table {
 html,
 body {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Rubik';
 }
 
 h1,
@@ -152,33 +152,33 @@ h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-weight: 300;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Rubik';
 }
 
 p {
     line-height: 1.4;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Rubik';
 
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Rubik';
 }
 
 #navBar {
     /* display: flex; */
     /* flex-basis: 100%; */
     display: flex;
-    width: 100%;
+    width: 79%;
     margin: 0px;
     padding: 0px;
     font-size: 32px;
     position: fixed;
     background-color: white;
     color: black;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Rubik';
 
 }
 
@@ -191,59 +191,75 @@ p {
     text-decoration: none;
 }
 
-.top-content1 {
+/* .top-content1 {
 
     justify-content: space-evenly;
     justify-content: space-around;
     margin-bottom: 20px;
+    padding: 4px;
     /* border-bottom: 4px dashed black; */
 }
 
-.top-content2 {
+/* 
+.topContentDiv {
 
     justify-content: space-evenly;
     justify-content: space-around;
-    margin-bottom: 20px;
-    /* border-bottom: 1px dashed black; */
-}
+    padding-top: 10px;
+    border-bottom: 1px dashed black;
+} */
 
 #topContentDiv {
     display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: center;
-    justify-content: space-around;
-    border-bottom: 1px dashed black;
+    justify-items: right;
 
 }
 
+.topContent1 {
+    border: 5px dashed red;
+    margin: 0;
+    padding: 30px;
+
+}
+
+/* 
 .top-content1,
 .top-content2,
 .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;
-}
+} */
 
 .middle-content {
-    margin-bottom: 20px;
+
+    margin-bottom: 40px;
     border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+    padding-top: 20px;
+    margin: 40;
+    font-size: 20px;
 }
 
-.middle-content .boxes {
+.boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-content: center;
+    padding: 20px;
+
+
+
+
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
+/*
+.box {
+    flex-basis: auto%;
+    height: 500px;
     background: black;
     margin: 20px 2.5%;
     color: white;
@@ -251,6 +267,8 @@ p {
     align-items: center;
     justify-content: center;
 }
+*/
+
 
 #bottomContent {
     display: flex;
@@ -270,7 +288,6 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
 
 
 /**
@@ -387,4 +404,27 @@ footer nav a {
 
 .boxes .box10 {
     background-color: dodgerblue;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9,
+.box10 {
+    flex-basis: 12%;
+    height: 95px;
+    padding: 17px;
+    /* background: black; */
+    margin: 0;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    /* justify-content: center; */
 }
