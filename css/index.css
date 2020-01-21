@@ -326,17 +326,40 @@ p {
 
 #stratHowWe {
     display: flex;
-    justify-content: flex-start;
-    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 97%;
 
 }
 
-
+/* 
 #strat,
-#howWe {
+#howWe div {
 
     border-bottom: 1px dashed black;
+} */
+
+.strat {
+
+    width: 47%;
 }
+
+.strat p {
+
+    width: 350px;
+    margin: 2%;
+}
+
+.strat img {
+
+    width: 95%;
+}
+
+.strat h3 {
+
+    margin: 2%;
+}
+
 
 
 
