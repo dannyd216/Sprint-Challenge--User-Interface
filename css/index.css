@@ -246,7 +246,7 @@ body.bodyTagAbout {
 
 #aboutSect {
     justify-content: center;
-    padding: 0 2%;
+    padding: 3% 2%;
     border-bottom: 2px dotted black;
 }
 
@@ -258,7 +258,8 @@ body.bodyTagAbout {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    margin: 3%;
+    margin: 0;
+
 
 }
 
@@ -338,7 +339,7 @@ body.bodyTagAbout {
 
 #letsWorkDiv {
     justify-content: center;
-    padding: 0 2%;
+    padding: 3% 2%;
 }
 
 
