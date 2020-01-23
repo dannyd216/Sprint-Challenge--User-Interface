@@ -161,24 +161,37 @@ p {
 
 }
 
+.aboutContainer {
+    padding: 0 12%;
+    width: 90%;
+    font-weight: bold;
+}
+
+/* 
 .container {
     width: 800px;
     margin: 0 auto;
     font-family: 'Roboto', 'Rubik';
-}
+} */
+
+/* 
+body.bodyTagAbout {
+    display: flex;
+    border: 1px solid red;
+} */
 
 #navBar {
     /* display: flex; */
     /* flex-basis: 100%; */
     display: flex;
-    width: 80%;
-    margin: 0px;
-    padding: 0px;
-    font-size: 32px;
-    position: fixed;
+    width: 100%;
+    padding-bottom: 0;
+    font-size: 28px;
+    /* position: fixed; */
     background-color: white;
     color: black;
     font-family: 'Roboto', 'Rubik';
+    justify-content: space-between;
 
 }
 
@@ -191,23 +204,11 @@ p {
     text-decoration: none;
 }
 
-/* .top-content1 {
-
-    justify-content: space-evenly;
-    justify-content: space-around;
-    margin-bottom: 20px;
-    padding: 4px;
-    /* border-bottom: 4px dashed black; */
+#jumboAbtDiv img {
+    width: 100%;
+}
 
 /* 
-.topContentDiv {
-
-    justify-content: space-evenly;
-    justify-content: space-around;
-    padding-top: 10px;
-    border-bottom: 1px dashed black;
-} */
-
 #topContentDiv {
     display: flex;
     flex-basis: 5%;
@@ -225,7 +226,7 @@ p {
     justify-content: flex-start;
     justify-content: space-around;
 
-}
+} */
 
 
 #topContent1 h2 {
@@ -234,14 +235,67 @@ p {
     padding-bottom: 24px;
 }
 
-/* 
-.top-content1,
-.top-content2,
-.text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;
-} */
+
+#jumboPic {
+    /* display: flex; */
+    flex-basis: 100%;
+    padding-top: 1px;
+    flex: 1;
+}
+
+
+#aboutSect {
+    justify-content: center;
+    padding: 0 2%;
+    border-bottom: 2px dotted black;
+}
+
+
+
+
+#stratHowWe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 3%;
+
+}
+
+.strat {
+
+    width: 47%;
+    padding: 2%;
+    border-bottom: 2px dotted black;
+}
+
+.strat p {
+
+    width: 350px;
+    margin: 2%;
+}
+
+.strat img {
+
+    width: 95%;
+    padding-top: 7%;
+}
+
+.strat h3 {
+
+    margin: 2%;
+}
+
+.learnMore {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10%;
+    /* Green */
+    font-size: 18px;
+}
+
+
 
 .middle-content {
 
@@ -282,6 +336,10 @@ p {
 }
 */
 
+#letsWorkDiv {
+    justify-content: center;
+    padding: 0 2%;
+}
 
 
 #bottomContent {
@@ -297,72 +355,9 @@ p {
 
 }
 
-.text-container {
-    padding: 0;
-    flex-basis: 70%;
-    padding-bottom: 30px;
-
-}
-
 /**
  * ABOUT PAGE SECOND FORM VIA THE LINK ON NAV BAR
 */
-
-#aboutSect {
-    flex: 1;
-    flex-wrap: wrap;
-    justify-content: center;
-
-
-}
-
-#jumboPic {
-    display: flex;
-    flex-basis: 100%;
-    padding-top: 55px;
-    flex: 1;
-}
-
-
-#stratHowWe {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 97%;
-
-}
-
-/* 
-#strat,
-#howWe div {
-
-    border-bottom: 1px dashed black;
-} */
-
-.strat {
-
-    width: 47%;
-}
-
-.strat p {
-
-    width: 350px;
-    margin: 2%;
-}
-
-.strat img {
-
-    width: 95%;
-}
-
-.strat h3 {
-
-    margin: 2%;
-}
-
-
-
-
 
 
 footer {
