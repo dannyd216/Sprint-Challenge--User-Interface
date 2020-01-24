@@ -144,6 +144,10 @@ body {
     font-family: 'Roboto', 'Rubik';
 }
 
+body {
+    max-width: 1400px;
+}
+
 h1,
 h2,
 h3,
@@ -167,6 +171,13 @@ p {
     font-weight: bold;
 }
 
+.container {
+    padding: 0 12%;
+
+    width: 90%;
+    font-weight: bold;
+}
+
 /* 
 .container {
     width: 800px;
@@ -181,57 +192,58 @@ body.bodyTagAbout {
 } */
 
 #navBar {
-    /* display: flex; */
-    /* flex-basis: 100%; */
     display: flex;
     width: 100%;
-    padding-bottom: 0;
+    padding: 4%;
+    margin: 1%;
     font-size: 28px;
-    /* position: fixed; */
     background-color: white;
     color: black;
     font-family: 'Roboto', 'Rubik';
-    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: space-around;
 
-}
-
-#lamLogo #links {
-    width: 90%;
-    justify-content: space-between;
 }
 
 #navBar a {
     color: black;
-    padding: 10px;
+    padding: 13px;
     margin: 6px;
     width: 100%;
     text-decoration: none;
+}
+
+#lamLogo {
+    padding: 3%;
+    margin: 0;
+    width: 25%;
+}
+
+#lamLogo img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#links {
+    width: 80%;
+    padding: 0;
+    margin: 0;
+
 }
 
 #jumboAbtDiv img {
     width: 100%;
 }
 
-/* 
-#topContentDiv {
+* #topContentDiv {
     display: flex;
-    flex-basis: 5%;
-    padding: 0;
+    padding: 2%;
     margin: 0;
     border-bottom: black dashed 1px;
+    justify-content: space-between;
 
-    ;
 }
-
-#topContent1 {
-    margin: 0;
-    padding: 20px 0 35px 10px;
-    flex-basis: 60%;
-    justify-content: flex-start;
-    justify-content: space-around;
-
-} */
-
 
 #topContent1 h2 {
     font-size: 22px;
@@ -244,7 +256,11 @@ body.bodyTagAbout {
     /* display: flex; */
     flex-basis: 100%;
     padding-top: 1px;
-    flex: 1;
+    width: 100%;
+}
+
+#jumboPic img {
+    width: 100%;
 }
 
 
