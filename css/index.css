@@ -66,29 +66,54 @@ p {
     line-height: 1.4;
 }
 
-nav {
-    display: flex;
-}
-
-#navLinks {
-    width: 65%;
-}
-
-#navLinks a {
-    padding: 3px;
-
-}
-
-#lambdaLogo {
-    width: 25%;
-    padding: 15px;
-}
-
 
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+nav {
+    display: flex;
+
+    justify-content: space-evenly;
+
+    /* border: 2px green solid; */
+
+}
+
+#navLinks {
+    width: 80%;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    text-align: center;
+
+    justify-content: space-evenly;
+
+    padding: 3%;
+
+    /* border: 2px green solid; */
+
+}
+
+#navLinks a {
+    padding: 3%;
+
+    color: black;
+
+    text-decoration: none;
+
+
+
+}
+
+#lambdaLogo {
+    width: 25%;
+    padding: 2%;
+}
+
+
 
 .top-content {
     display: flex;
@@ -112,23 +137,26 @@ nav {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+
+    font-weight: bold;
 }
 
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .bottom-content {
@@ -163,6 +191,61 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+/*HOME PAGE*/
+
+.bottom-content {
+
+    font-weight: bold;
+}
+
+.boxes .box1 {
+    background-color: teal; 
+}
+.boxes .box2 {
+    background-color: gold; 
+}
+.boxes .box3 {
+    background-color: cadetblue; 
+}
+.boxes .box4{
+    background-color: coral; 
+}
+.boxes .box5 {
+    background-color: crimson; 
+}
+.boxes .box6 {
+    background-color: forestgreen; 
+}
+.boxes .box7 {
+    background-color: darkorchid; 
+}
+.boxes .box8 {
+    background-color: hotpink; 
+}
+.boxes .box9 {
+    background-color: indigo; 
+}
+.boxes .box10 {
+    background-color: dodgerblue; 
+}
+.boxes .box1 {
+    background-color: teal; 
+}
+.boxes .box1 {
+    background-color: teal; 
+}
+.boxes .box1 {
+    background-color: teal; 
+}
+
+
+
+
+
+
 
 /*ABOUT PAGE*/
 
