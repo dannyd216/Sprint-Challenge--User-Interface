@@ -68,9 +68,20 @@ p {
 
 nav {
     display: flex;
+}
 
+#navLinks {
+    width: 65%;
+}
 
+#navLinks a {
+    padding: 3px;
 
+}
+
+#lambdaLogo {
+    width: 25%;
+    padding: 15px;
 }
 
 
