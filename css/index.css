@@ -159,6 +159,9 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
 
+    font-weight: bold;
+
+    
 }
 
 #aboutMainSection div {
@@ -170,5 +173,27 @@ footer nav a {
 
     padding: 2%;
 
+    /* border-bottom: dashed 1px black; */
+
+    /* margin: 2% 0; */
+
     
+}
+
+#aboutMainSection p {
+
+    font-size: 14px;
+
+}
+
+#aboutMainSection button {
+
+    border: black 1px solid;
+    border-radius: 4px;
+
+    /* margin: 2px; */
+}
+
+#aboutJumbo img {
+    max-width: 100%;
 }
