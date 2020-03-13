@@ -163,5 +163,12 @@ footer nav a {
 
 #aboutMainSection div {
 
-    width: 44%;
+    width: 50%;
+
+    justify-content: space-between;
+    justify-content: space-around;
+
+    padding: 2%;
+
+    
 }
