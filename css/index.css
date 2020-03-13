@@ -153,10 +153,12 @@ nav {
     height: 100px;
     /* background: black; */
     margin: 20px 2.5%;
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    /* text-align: center; */
 }
 
 .bottom-content {
@@ -203,42 +205,48 @@ footer nav a {
 
 .boxes .box1 {
     background-color: teal; 
+    /* text-align: center; */
+
+    /* color: black; */
+
+    padding: 3.5%;
 }
 .boxes .box2 {
     background-color: gold; 
+    padding: 3.5%;
+    
 }
 .boxes .box3 {
     background-color: cadetblue; 
+    padding: 3.5%;
 }
 .boxes .box4{
     background-color: coral; 
+    padding: 3.5%;
 }
 .boxes .box5 {
     background-color: crimson; 
+    padding: 3.5%;
 }
 .boxes .box6 {
     background-color: forestgreen; 
+    padding: 3.5%;
 }
 .boxes .box7 {
     background-color: darkorchid; 
+    padding: 3.5%;
 }
 .boxes .box8 {
     background-color: hotpink; 
+    padding: 3.5%;
 }
 .boxes .box9 {
     background-color: indigo; 
+    padding: 3.5%;
 }
 .boxes .box10 {
     background-color: dodgerblue; 
-}
-.boxes .box1 {
-    background-color: teal; 
-}
-.boxes .box1 {
-    background-color: teal; 
-}
-.boxes .box1 {
-    background-color: teal; 
+    padding: 3.5%;
 }
 
 
