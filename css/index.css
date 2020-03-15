@@ -68,8 +68,9 @@ p {
 
 
 .container {
-    width: 800px;
-    margin: 0 auto;
+    width: 880px;
+    margin: 0 2%;
+
 }
 
 nav {
@@ -89,7 +90,7 @@ nav {
 
     text-align: center;
 
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     padding: 3%;
 
@@ -110,7 +111,7 @@ nav {
 
 #lambdaLogo {
     width: 25%;
-    padding: 2%;
+    padding: 1%;
 }
 
 
@@ -121,6 +122,8 @@ nav {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+
+    font-weight: bold;
 }
 
 .top-content .text-container {
@@ -187,6 +190,8 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+
+
 }
 
 footer nav a {
@@ -197,6 +202,15 @@ footer nav a {
 
 
 /*HOME PAGE*/
+
+#homeJumbo img {
+    max-width: 100%;
+
+    width: 100%;
+}
+
+
+
 
 .bottom-content {
 
@@ -253,9 +267,33 @@ footer nav a {
 
 
 
-
-
 /*ABOUT PAGE*/
+
+header {
+
+    font-weight: bold;
+
+    text-align: justify;
+
+    border-bottom: black 1px solid;
+
+    font-size: 18px;
+}
+
+header h3{
+
+    font-size: 20px;
+}
+
+#aboutJumbo img {
+
+    max-width: 100%;
+
+    width: 100%;
+
+}
+
+
 
 #aboutMainSection {
     display: flex;
@@ -263,19 +301,25 @@ footer nav a {
 
     font-weight: bold;
 
+    /* border-top: black 1px dashed; */
+
+    justify-content: space-between;
+    justify-content: space-between;
+
+
     
 }
 
 #aboutMainSection div {
 
-    width: 50%;
+    width: 48%;
 
     justify-content: space-between;
     justify-content: space-around;
 
     padding: 2%;
 
-    /* border-bottom: dashed 1px black; */
+    border-bottom: dashed 1px black;
 
     /* margin: 2% 0; */
 
@@ -284,7 +328,10 @@ footer nav a {
 
 #aboutMainSection p {
 
-    font-size: 14px;
+    font-size: 18px;
+
+    justify-content: justify;
+
 
 }
 
@@ -293,9 +340,20 @@ footer nav a {
     border: black 1px solid;
     border-radius: 4px;
 
-    /* margin: 2px; */
+    padding: 2%;
+
+
+    background-color: gray;
+
+    margin: 2%;
 }
 
-#aboutJumbo img {
-    max-width: 100%;
+#letsWorkDiv {
+    font-weight: bold;
+
+    font-size: 18px;
+
+    text-align: justify;
 }
+
+
