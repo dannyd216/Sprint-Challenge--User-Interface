@@ -3,107 +3,351 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Rubik';
 }
 
-h1, h2, h3, h4, h5 {
+body {
+    max-width: 1400px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-size: 18px;
     margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    font-family: 'Roboto', 'Rubik';
 }
 
 p {
     line-height: 1.4;
+    font-family: 'Roboto', 'Rubik';
+
+}
+
+.aboutContainer {
+    padding: 0 12%;
+    width: 90%;
+    font-weight: bold;
 }
 
 .container {
+    padding: 0 12%;
+
+    width: 90%;
+    font-weight: bold;
+}
+
+/* 
+.container {
     width: 800px;
     margin: 0 auto;
+    font-family: 'Roboto', 'Rubik';
+} */
+
+/* 
+body.bodyTagAbout {
+    display: flex;
+    border: 1px solid red;
+} */
+
+#navBar {
+    display: flex;
+    width: 100%;
+    padding: 4%;
+    margin: 1%;
+    font-size: 28px;
+    background-color: white;
+    color: black;
+    font-family: 'Roboto', 'Rubik';
+    align-items: center;
+    justify-content: space-around;
+
 }
 
-.top-content {
+#navBar a {
+    color: black;
+    padding: 13px;
+    margin: 6px;
+    width: 100%;
+    text-decoration: none;
+}
+
+#lamLogo {
+    padding: 0;
+    margin: 0;
+    width: 25%;
+}
+
+#lamLogo img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#links {
+    width: 80%;
+    padding: 0;
+    margin: 0;
+
+}
+
+#jumboAbtDiv img {
+    width: 100%;
+}
+
+* #topContentDiv {
+    display: flex;
+    padding: 2%;
+    margin: 0;
+    border-bottom: black dashed 1px;
+    justify-content: space-between;
+
+}
+
+#topContent1 h2 {
+    font-size: 22px;
+    margin: 0;
+    padding-bottom: 24px;
+}
+
+
+#jumboPic {
+    /* display: flex; */
+    flex-basis: 100%;
+    padding-top: 1px;
+    width: 100%;
+}
+
+#jumboPic img {
+    width: 100%;
+}
+
+
+#aboutSect {
+    justify-content: center;
+    padding: 3% 2%;
+    border-bottom: 2px dotted black;
+}
+
+
+
+
+#stratHowWe {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+
+
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+.strat {
+
+    width: 47%;
+    padding: 2%;
+    border-bottom: 2px dotted black;
 }
+
+.strat p {
+
+    width: 350px;
+    margin: 2%;
+}
+
+.strat img {
+
+    width: 95%;
+    padding-top: 7%;
+}
+
+.strat h3 {
+
+    margin: 2%;
+}
+
+.learnMore {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10%;
+    /* Green */
+    font-size: 18px;
+}
+
+
 
 .middle-content {
-    margin-bottom: 20px;
+
+    margin-bottom: 40px;
     border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+    padding-top: 20px;
+    padding-left: 25px;
+    margin: 40;
+    font-size: 20px;
 }
 
-.middle-content .boxes {
+.boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-content: center;
+    padding: 20px;
+
+
+
+
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
+/*
+.box {
+    flex-basis: auto%;
+    height: 500px;
     background: black;
     margin: 20px 2.5%;
     color: white;
@@ -111,20 +355,31 @@ p {
     align-items: center;
     justify-content: center;
 }
+*/
 
-.bottom-content {
+#letsWorkDiv {
+    justify-content: center;
+    padding: 3% 2%;
+}
+
+
+#bottomContent {
     display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    align-items: center;
+    flex-basis: 28%;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: 900;
+
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
-}
+/**
+ * ABOUT PAGE SECOND FORM VIA THE LINK ON NAV BAR
+*/
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
 
 footer {
     width: 100%;
@@ -143,4 +398,86 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/**
+ * 
+ * THE FOLLOWING BOXES NEED BACKGROUND COLORS:
+ * 
+ * 
+* [ ] box1: `teal`
+* [ ] box2: `gold`
+* [ ] box3: `cadetblue`
+* [ ] box4: `coral`
+* [ ] box5: `crimson`
+* [ ] box6: `forestgreen`
+* [ ] box7: `darkorchid`
+* [ ] box8: `hotpink`
+* [ ] box9: `indigo`
+* [ ] box10: `dodgerblue`
+ * 
+*/
+
+.boxes .box1 {
+    background-color: teal;
+
+}
+
+.boxes .box2 {
+    background-color: gold;
+
+}
+
+.boxes .box3 {
+    background-color: cadetblue;
+}
+
+.boxes .box4 {
+    background-color: coral;
+}
+
+.boxes .box5 {
+    background-color: crimson;
+}
+
+.boxes .box6 {
+    background-color: forestgreen;
+}
+
+.boxes .box7 {
+    background-color: darkorchid;
+}
+
+.boxes .box8 {
+    background-color: hotpink;
+}
+
+.boxes .box9 {
+    background-color: indigo;
+}
+
+.boxes .box10 {
+    background-color: dodgerblue;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9,
+.box10 {
+    flex-basis: 12%;
+    height: 95px;
+    padding: 17px;
+    margin: 0;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    /* justify-content: center; */
 }
