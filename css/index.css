@@ -136,6 +136,8 @@ table {
 
 * {
     box-sizing: border-box;
+
+    max-width: 100%;
 }
 
 html,
@@ -145,7 +147,7 @@ body {
 }
 
 body {
-    max-width: 1400px;
+    max-width: 1200px;
 }
 
 h1,
@@ -178,18 +180,6 @@ p {
     font-weight: bold;
 }
 
-/* 
-.container {
-    width: 800px;
-    margin: 0 auto;
-    font-family: 'Roboto', 'Rubik';
-} */
-
-/* 
-body.bodyTagAbout {
-    display: flex;
-    border: 1px solid red;
-} */
 
 #navBar {
     display: flex;
@@ -201,7 +191,7 @@ body.bodyTagAbout {
     color: black;
     font-family: 'Roboto', 'Rubik';
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
 }
 
@@ -226,17 +216,20 @@ body.bodyTagAbout {
 }
 
 #links {
-    width: 80%;
+    width: 70%;
     padding: 0;
     margin: 0;
+    font-size: 1.2rem;
 
+    display: flex;
+    justify-content: space-between;
 }
 
 #jumboAbtDiv img {
     width: 100%;
 }
 
-* #topContentDiv {
+#topContentDiv {
     display: flex;
     padding: 2%;
     margin: 0;
@@ -253,7 +246,7 @@ body.bodyTagAbout {
 
 
 #jumboPic {
-    /* display: flex; */
+
     flex-basis: 100%;
     padding-top: 1px;
     width: 100%;
@@ -268,6 +261,8 @@ body.bodyTagAbout {
     justify-content: center;
     padding: 3% 2%;
     border-bottom: 2px dotted black;
+    font-weight: bold;
+    font-size: 1.25rem;
 }
 
 
@@ -279,8 +274,6 @@ body.bodyTagAbout {
     justify-content: space-between;
     width: 100%;
     margin: 0;
-
-
 }
 
 .strat {
@@ -311,8 +304,7 @@ body.bodyTagAbout {
     background-color: white;
     color: black;
     border: 2px solid black;
-    border-radius: 10%;
-    /* Green */
+    border-radius: 2rem;
     font-size: 18px;
 }
 
@@ -327,7 +319,6 @@ body.bodyTagAbout {
 .middle-content h2 {
     padding-top: 20px;
     padding-left: 25px;
-    margin: 40;
     font-size: 20px;
 }
 
@@ -337,29 +328,15 @@ body.bodyTagAbout {
     justify-content: space-between;
     justify-content: space-around;
     align-content: center;
-    padding: 20px;
-
-
-
+    padding: 3rem;
 
 }
 
-/*
-.box {
-    flex-basis: auto%;
-    height: 500px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-*/
 
 #letsWorkDiv {
     justify-content: center;
     padding: 3% 2%;
+    font-size: 1rem;
 }
 
 
